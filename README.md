@@ -5,7 +5,7 @@ Simple Tic-Tac-Toe game made in vanilla JavaScript with feedback and the ability
 
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://user-images.githubusercontent.com/101346105/225693608-a4896eaf-5e14-4caf-b392-10939ca1f0f2.png" alt="Game design" width="600" height="800">
+    <img src="https://user-images.githubusercontent.com/101346105/225693608-a4896eaf-5e14-4caf-b392-10939ca1f0f2.png" alt="Game design" >
   </a>
 <div style="text-align:center;">
 <br>
