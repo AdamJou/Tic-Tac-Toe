@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #4195fc;
+}
+
+#board {
+  width: 302px;
+  min-height: 300px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #0072fe;
+}
+
+.square {
+  width: 100px;
+  min-height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0072fe;
+}
+
+.circle {
+  min-height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 0.7rem solid blue;
+}
+
+.cross {
+  min-height: 70px;
+  width: 70px;
+  position: relative;
+}
+
+.cross:before,
+.cross:after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  left: 50%;
+  width: 20%;
+  margin-left: -10%;
+  height: 100%;
+}
+
+.cross::before {
+  transform: rotate(45deg);
+}
+
+.cross::after {
+  transform: rotate(-45deg);
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+p {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+span {
+  color: blue;
+}
+.red {
+  color: red;
+  font-size: 1.5rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: black;
+  border: 3px solid #0072fe;
+  transition: border 1s ease;
+}
+
+button:hover {
+  border-color: red;
+}
